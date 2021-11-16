@@ -24,7 +24,7 @@ function App() {
       Axios.post('http://localhost:3100/add', {
         name: name,
         description: description
-      }).then(console.log("added"));
+      }).then(alert('added'));
       console.log('clicked')
     }
     
